@@ -1,12 +1,12 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: ce451c24-d5a3-4b2c-a4ad-7f392e7e2056
+  id: ff6d6657-8e6d-4285-a2b0-854c76ffdf05
   # title:
   # description:
   # keywords: []
   # authors: []
-  # github:
+  github: https://github.com/fperez/mines-heiland-demo
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
   template: book-theme
