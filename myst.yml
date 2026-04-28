@@ -1,15 +1,31 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
+
 project:
-  id: ff6d6657-8e6d-4285-a2b0-854c76ffdf05
-  # title:
-  # description:
+  title: "Mines Heiland Colloquium demo"
+  description: "Jupyter, AI and Open Science demo for Heiland Colloquium at Colorado School of Mines"
   # keywords: []
-  # authors: []
-  github: https://github.com/fperez/mines-heiland-demo
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  authors:
+    - name: "Fernando Pérez"
+      affiliations:
+        - "University of California, Berkeley"
+        - "Department of Statistics"
+        - "Berkeley Institute for Data Science"
+        - "Schmidt Center for Data Science and Environment"
+      email: "fernando.perez@berkeley.edu"
+      orcid: "0000-0002-1725-9815"
+      github: "fperez"
+  github: &repo "https://github.com/fperez/mines-heiland-demo"
+  toc:
+    - file: "index.md"
+
+
 site:
-  template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  template: "book-theme"
+  actions:
+    - title: "View source"
+      url: *repo
+  options:
+    folders: true
+    style: "assets/styles/style.css"
+    logo_text: "Mines Heiland Colloquium demo"
