@@ -6,7 +6,7 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
-render = "myst build --strict --html"
+render = "myst build --strict --html --pdf"
 preview = "myst start"
 
 [dependencies]
