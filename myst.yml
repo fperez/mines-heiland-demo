@@ -18,7 +18,7 @@ project:
   github: &repo "https://github.com/fperez/mines-heiland-demo"
   toc:
     - file: "index.md"
-    #- file: "high_seas_mpa_analysis.ipynb"
+    - file: "high_seas_mpa_analysis.ipynb"
 
 
 site:
